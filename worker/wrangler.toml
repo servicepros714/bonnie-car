@@ -1,0 +1,9 @@
+# Reference only — the Worker is deployed from the Cloudflare dashboard.
+name = "bonnie-detailing-worker"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "detailing-bookings"
+database_id = "PASTE-D1-DATABASE-ID"
